@@ -1,10 +1,9 @@
 [package]
-name = "kess_boot"
+name = "kessboot"
 version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Ian-M-Moffett <spruiousvector@gmail.com>"]
+edition = "2018"
 
 [dependencies]
-uefi = { version = "0.16.0", features = ["exts"] }
-uefi-services = "0.13.0"
+uefi = "*"
+uefi-services = "*"
